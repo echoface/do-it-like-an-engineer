@@ -1,0 +1,3 @@
+# with_the_bullshit_courage_to_face_the_fucking_life
+
+一句中文总结， 操蛋的生活，你还得笑着面对....
