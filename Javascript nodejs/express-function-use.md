@@ -24,20 +24,22 @@ function(req,res, next){//...}
 大致是下面这个样子的
 
 * 1.导入相关模块
-* 2.执行过 var app = express\(\) 后，
+* 2.执行过 var app = express() 后，
 * 使用app.set 设置express内部的一些参数（options）
 * 使用app.use 来注册函数，可以简单的认为是向那个tasks的数组进行push操作
 
-app.use\(function\(req,res,next\){
-    console.log\('pos 00000001'\);
-    next\(\);
-    console.log\('pos 00000002'\);
-}\);
+```js
+app.use(function(req,res,next){
+    console.log('pos 00000001');
+    next();
+    console.log('pos 00000002');
+});
 
-app.use\(function\(req,res,next\){
-    console.log\("pos 0000003"\);
-    next\(\);
-}\);
+app.use(function(req,res,next){
+    console.log("pos 0000003");
+    next();
+});
+```
 
 也就是说, 如果我们在浏览器中发送一个'HTTP:\/\/hostname:port\/' 这样一个'\/' 路径的请求之后, 我们会看到下面这样的输出:
 
