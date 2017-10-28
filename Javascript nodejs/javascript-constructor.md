@@ -76,7 +76,8 @@
  //console.log(myObject.prototype.constructor.name); //china, 相当于myObject.name;
 ```
 
-![](/javascript_nodejs/javascript_prototype01.jpg)![](/javascript_nodejs/javascript_prototype02.png)
+![](Javascript nodejs/img/javascript_prototype01.jpg)
+![](Javascript nodejs/img/javascript_prototype02.png)
 
 ---
 
