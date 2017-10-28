@@ -64,6 +64,8 @@
 * [框架分析与三方库](Framework library/README.md)
   * [libevent源码阅读](Framework library/libevent-源码阅读笔记.md)
   * [libevent](Framework library/libevent.md)
+  * [libuv](Framework library/libuv.md)
+  * [google protobuffer](Framework library/protocol-buffer-from-google.md)
 * []()
 * []()
 
