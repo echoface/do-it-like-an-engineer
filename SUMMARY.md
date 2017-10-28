@@ -72,7 +72,7 @@
     * [概念:模板引擎](Javascript nodejs/Templates-engine.md)
   * [用Nodejs搭建weixin公众平台入门例子](Javascript nodejs/weixin-public-platform-example.md)
   * [javascript 构造函数](Javascript nodejs/javascript-constructor.md)
-  * [ES6 New Keyword class](Javascript nodejs/es6-new-keyword_class.md)
+  * [ES6 New Keyword class](Javascript nodejs/es6-new-keyword-class.md)
   * [map reduce filter sort](Javascript nodejs/map-reduce-filter-sort.md)
   * [ES6 New Feature Overview](Javascript nodejs/es6-new-feature-overview.md)
   * [傻乎乎的理解js事件模型](Javascript nodejs/傻乎乎的理解js事件模型.md)
