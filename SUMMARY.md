@@ -81,7 +81,7 @@
   * [a share componnent from my girl](Javascript nodejs/a-share-componnent-from-my-girl.md)
   * [转盘抽奖demo](Javascript nodejs/转盘抽奖demo.md)
 * [Personal Project](Personal project/README.md)
-  * [The X-th Project XReader](program_project/the_x-th_project_xreader.md)
+  * [The X-th Project XReader](Personal project/the-x-th-project-xreader.md)
   * [Imitate FM Studio](Personal project/FM模仿工程.md)
   * [做Xreader过程中的感悟](Personal project/做xreader过程中的感悟.md)
 * [Let Code](LetCode/README.md)
