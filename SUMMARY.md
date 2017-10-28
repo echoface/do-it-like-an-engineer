@@ -83,7 +83,7 @@
 * [Let Code](LetCode/README.md)
   * [code01: Two Sum](LetCode/code01-two-sum.md)
   * [code02：threeSum](LetCode/code02-threesum.md)
-  * [code03：endianJudge](LetCode/code03：endianjudge.md)
+  * [code03：endianJudge](LetCode/code03-endianjudge.md)
   * [code04: atoi and itoa](LetCode/code04-atoi-and-itoa.md)
   * [code05: list reverse](LetCode/code05-list-reverse.md)
   * [code06:  add two numbers](LetCode/code06--add-two-numbers.md)
