@@ -96,10 +96,10 @@
   * [leetcode: reverse Int value](LetCode/leetcode-reverse-int-value.md)
   * [leetcide: array reverse](LetCode/leetcide-array-reverse.md)
 * [英文朗读](English Reading/README.md)
-  * [what you sow, you reap](English Readin/what-you-saw-you-reap.md)
-  * [MaMa song for mama](English Readin/mama-song-for-mama.md)
-  * [my dear bessie](English Readin/my-dear-bessie.md)
-  * [something you will forgot](English Readin/something-you-will-forgot.md)
+  * [what you sow, you reap](English Reading/what-you-saw-you-reap.md)
+  * [MaMa song for mama](English Reading/mama-song-for-mama.md)
+  * [my dear bessie](English Reading/my-dear-bessie.md)
+  * [something you will forgot](English Reading/something-you-will-forgot.md)
   * [audio sink](English Readin/audio-sink.md)
 
   
