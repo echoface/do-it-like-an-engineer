@@ -61,7 +61,9 @@
   * [深入理解计算机系统](For Better Life/深入理解计算机系统阅读笔记.md)
   * [基础问答](For Better Life/简单的c问答.md)
   * [计算机数值表示](For Better Life/计算机的数值表示.md)
-* []()
+* [框架分析与三方库](Framework library/README.md)
+  * [libevent源码阅读](Framework library/libevent-源码阅读笔记.md)
+  * [libevent](Framework library/libevent.md)
 * []()
 * []()
 
