@@ -79,7 +79,7 @@
   * [URL组成分析](Javascript nodejs/url组成分析.md)
   * [Electron: jQuery is not defined](Javascript nodejs/electron-jquery-is-not-defined.md)
   * [a share componnent from my girl](Javascript nodejs/a-share-componnent-from-my-girl.md)
-  * [转盘抽奖demo](javascript nodejs/转盘抽奖demo.md)
+  * [转盘抽奖demo](Javascript nodejs/转盘抽奖demo.md)
 * []()
 
   
