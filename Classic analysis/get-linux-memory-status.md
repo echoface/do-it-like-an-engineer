@@ -38,6 +38,7 @@ The following    **`getMemorySize( )`** function works for most OSes (copy and p
 
 See the sections that follow for discussion, caveats, and why this code requires so many `#ifdef`'s.
 
+```
 <pre class="code-example">
 /*
  * Author:  David Robert Nadeau
@@ -45,8 +46,8 @@ See the sections that follow for discussion, caveats, and why this code requires
  * License: Creative Commons Attribution 3.0 Unported License
  *          http://creativecommons.org/licenses/by/3.0/deed.en_US
  */
-
 #if defined(_WIN32)
+
 #include <Windows.h>
 
 #elif defined(__unix__) || defined(__unix) || defined(unix) || (defined(__APPLE__) && defined(__MACH__))
@@ -135,6 +136,7 @@ size_t **getMemorySize**( )
 #endif
 }
 </pre>
+```
 
 ### Usage
 
@@ -474,7 +476,7 @@ Thanks for catching a bug.  The proper return type for FreeBSD's
 ### [Code for HP-UX](http://nadeausoftware.com/articles/2012/09/c_c_tip_how_get_physical_memory_size_system#comment-12788)
 
     Submitted by Anonymous (not verified) on October 31, 2012 - 9:25pm.  
-
+    
     Following code will make the program work on HP-UX as well.
 
 <pre style="code">
