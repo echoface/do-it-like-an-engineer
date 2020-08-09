@@ -11,10 +11,10 @@
 * method 2：
 
   > 在document outline中选中需要UI对应的scene， 在右侧选择connections inspects，在右侧的Outlets变量中选取想binding的变量， 按住ctrl 键 拖到到相应地ui控件上  
-  > ![](/MacIOS_development/img/uibindingtowidget.png)
+  > ![](img/uibindingtowidget.png)
 
 ## assistants editor
 
 在storyboard界面打开ui类对应的assistants editor；按住ctrl键选中需要binding的ui控件并拖动到assistants editor代码中合适的位置， assistants editor 会自动弹出新建Outlet变量的对话框， 填写完毕即可自动的完成变量的创建和binding  
- ![](/MacIOS_development/img/bindingToWidgetByDrag.png)
+ ![](img/bindingToWidgetByDrag.png)
 

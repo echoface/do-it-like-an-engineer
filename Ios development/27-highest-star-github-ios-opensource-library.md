@@ -1,10 +1,12 @@
  And I love the developers, who spend their valuable private time creating amazing things, which then they share with other people and don’t want anything in return. **Open source authors and contributors, you are awesome people.** Thank you for all your work.
 
- ---
+---
  So **from my daily work on** [**my own apps**](https://www.eclerstudios.com/), here I’ve selected favorites from my favorites iOS open source libraries. Order of these projects is totally random, all of them are simply awesome.
  The overwhelming majority of the libraries support [CocoaPods](https://cocoapods.org/), so adding them to your Xcode project is a breeze.
  **On the bottom of the article you will find a TL;DR version **— a simple list with only titles and links to the projects. If you’ll find this article useful, **share it with your iOS dev buddies. Good things need to spread.**
- ## 1. DZNEmptyDataSet
+
+## 1. DZNEmptyDataSet
+
  This should be a standard, built-in into iOS way of dealing with empty table and collection views. By default if your table view is empty, the screen is empty. It’s not the best user experience you can have.
  With this library you just need to conform to a few protocols and iOS will beautifully take care of your collection view and display proper, good looking to user messages. No brainer for every iOS project.
  ![](https://d262ilb51hltx0.cloudfront.net/max/800/1*-GPQJ5GrZGlo560Vjn6ueQ.png)
@@ -179,19 +181,19 @@
 
  [**nickoneill/PermissionScope**
  _PermissionScope - A Periscope-inspired way to ask for iOS permissions_github.com](https://github.com/nickoneill/PermissionScope "https://github.com/nickoneill/PermissionScope")[](https://github.com/nickoneill/PermissionScope)
- 
+
 ## 14. SVProgressHUD
  This image **is** loaded properly, don’t wait longer and don’t refresh the page. **This is exactly how SVProgressHUD looks like in your app.** If you need custom waiting indicator, here you have (the best probably) one.
 
  ![](https://d262ilb51hltx0.cloudfront.net/max/800/1*nUWClDbqfsNzRqFx6jhA3g.gif)
 
  #### CocoaPods:
-  
+
  > pod 'SVProgressHUD'
 
  [**TransitApp/SVProgressHUD**
  _SVProgressHUD - A clean and lightweight progress HUD for your iOS app._github.com](https://github.com/TransitApp/SVProgressHUD "https://github.com/TransitApp/SVProgressHUD")[](https://github.com/TransitApp/SVProgressHUD)
- 
+
 ## 15. FontAwesomeKit
  **Font Awesome is awesome** and with this library you can easily add the font to your project and use it in many ways.
 
@@ -203,7 +205,7 @@
 
  [**PrideChung/FontAwesomeKit**
  _FontAwesomeKit - Icon font library for iOS. Currently supports Font-Awesome, Foundation icons, Zocial, and ionicons._github.com](https://github.com/PrideChung/FontAwesomeKit "https://github.com/PrideChung/FontAwesomeKit")[](https://github.com/PrideChung/FontAwesomeKit)
- 
+
 ## 16. SnapKit
  Love auto layout? You should!
  _At least when creating it in storyboards._
@@ -346,7 +348,7 @@
  ![](https://d262ilb51hltx0.cloudfront.net/max/400/1*tEIFKi-dRQW7FkohYgELAw.png)
 
  #### CocoaPods:
-  
+
 > pod 'KeychainAccess'
 
  [**kishikawakatsumi/KeychainAccess**
@@ -388,7 +390,7 @@
  Yes, everything is available as a drop-in (ok, maybe “code-in”) component.
  Unfortunately there is no CocoaPods support yet, so you need to manually drag the project to your Xcode workspace.
 
- ---
+---
 
 
 ### **TL;DR list of all these libraries for quick access:**
@@ -421,7 +423,7 @@
 - [KeychainAccess](https://github.com/kishikawakatsumi/KeychainAccess) [manage keychain easily]
 - [iOS-charts](https://github.com/danielgindi/ios-charts) [beautiful charts library]
 
- ---
+---
  Thanks for reading, it was a long list! If you think it was worth creating, **please share it by clicking the _Share_ button below the article **— more people will benefit from it**.** Also if you’re a Medium user, **please click the _Recommend_ button** — it will inspire me to create more iOS development articles!
 
 

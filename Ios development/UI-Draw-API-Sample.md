@@ -4,14 +4,12 @@
 
 * #### storyboard 中是这样的
 
-| ![](/MacIOS_development/img/drawAPIInNewViewController.png) |
-| :---: |
+![](img/drawAPIInNewViewController.png) 
 
 
 * #### 运行成功后是这样子嘀
 
-| ![](/MacIOS_development/img/运行效果.gif) |
-| :---: |
+ ![](img/运行效果.gif) 
 
 
 * #### 很容易看明白吧， 就是在页面跳转的时候，通过函数将tableview中得数据传递到下一个要显示的page上。看代码：不得不赞一个apple公司在这函数和api的说明上写的非常cool
@@ -206,17 +204,8 @@ _"UIGraphicsGetCurrentContext"_ 拿到, 这个上下文类似于javascript在浏
 
 > ### 最后看一下storyboard中得样子, 还有一个最后完成的样子:
 
-| ![](/MacIOS_development/img/手势绘图.gif) |
-| :---: |
+ ![](img/手势绘图.gif) 
+
 
 
 你以为是"你好"?? /奸笑
-
----
-
-| ——**我就是code小兵，code小兵就是我** |
-| ---: |
-
-
-
-
