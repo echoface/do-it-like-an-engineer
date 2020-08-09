@@ -1,11 +1,5 @@
 # GN 快速使用手册
 
-<header class="Site-header ">
-
-</header>
-
-# [](https://chromium.googlesource.com/chromium/src/+/master/tools/gn/docs/quick_start.md#GN-Quick-Start-guide)GN Quick Start guide
-
 ## Contents
 
 * [Running GN](https://chromium.googlesource.com/chromium/src/+/master/tools/gn/docs/quick_start.md#Running-GN)
@@ -342,4 +336,4 @@ and you can load the resulting file in Chrome's `about:tracing` page to look at 
     Powered by [Gitiles](https://code.google.com/p/gitiles/)
 
     [source](https://chromium.googlesource.com/chromium/src/+show/master/tools/gn/docs/quick_start.md)[log](https://chromium.googlesource.com/chromium/src/+log/master/tools/gn/docs/quick_start.md)[blame](https://chromium.googlesource.com/chromium/src/+blame/master/tools/gn/docs/quick_start.md)
-</footer>
+

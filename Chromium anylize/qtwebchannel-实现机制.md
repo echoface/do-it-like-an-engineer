@@ -116,5 +116,5 @@ void WebChannelTransport::Install(blink::WebFrame *frame, uint worldId)
 
 最后附上一张整个调用的时序图：
 
-![](/meet_chromium/img/QWebChannelCoreCallSequence.png)
+![](img/QWebChannelCoreCallSequence.png)
 

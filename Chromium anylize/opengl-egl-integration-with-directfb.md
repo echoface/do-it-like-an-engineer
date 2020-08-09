@@ -15,9 +15,9 @@
 
 最后一个就是我们的具体实现， 因为我门的嵌入式linux平台上没有跑显示服务器，直接使用directfb进行的framebuffer的输出， 所以这部分需要一个directfb的binding；下面这个ppt可以让我们将directfb 的 surface、window 与 egl的surface 等对接起来；
 
-![application structure](/meet_chromium/reference/applications_based_on_dfb-egl_bindings.png)
+![application structure](./img/dfb-egl_bindings.png)
 
-![dfb api equals things](/meet_chromium/reference/directfb_elg_binding.png)
+![dfb api equals things](./img/directfb_elg_binding.png)
 
 
 完整的PPT可以[参考这里](http://directfb.net/docs/DirectFB_EGL_2013-10-07.pdf)

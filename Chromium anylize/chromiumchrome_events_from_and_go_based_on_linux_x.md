@@ -1,4 +1,5 @@
-# chromium platform event's "from and go" based on linux X11 system 
+# platform event's "from and go" based on linux X11 system
+
 > chrome 在linux X11上平台事件的生和死
 
 
@@ -145,7 +146,7 @@ if ((action & POST_DISPATCH_PERFORM_DEFAULT) &&
 }
 FOR_EACH_OBSERVER(PlatformEventObserver, observers_,
                   DidProcessEvent(platform_event));
-```    
+```
 定睛一看overridden_dispatcher_成员变量的类型PlatformEventDispatcher* overridden_dispatcher_， PlatformEventDispatcher看上去就是chromium中平台相关的接口，既然到这里，肯定是有某个chromium中的一个类来集成和实现这部分的对接。我检索一下code。
 发现继承它的是：
     
@@ -166,7 +167,7 @@ void PlatformEventSource::AddPlatformEventObserver(
 base::ObserverList<PlatformEventObserver> observers_ 
 ```
 　　整体看来， 整个plat事件分发的时候三个点，一个是平台事件的监听者（platformeventObserver） 一个是用于window_tree 或者 其他平台上的layer tree分发事件的一个重写的platformEventDispatcher（这是正统哦）， 还有通过调用AddPlatformEventDispatcher来分发事件（这个就是那些分封的亲王，襄阳王，平阳王啥的）分别通过他们来将事件传递给想要拿到这些事件的对象。
-  
+
 　　至此， chromium平台事件到此结束。而后面的事件处理就是chromium本身给自己的UI系统也就是基于全新的Aura的子系统分发这些事件， 当让在这个之前，得将这些事件从从PlatEvent 转化成uiEvent， 具体请参见各个继承者对DispatchEvent的具体实现。不同平台拿上来的平台事件也不同有Xevent， 也有windows的 Msg事件 嵌入式平台上也有DFBEvent
 
 一些额外的信息
