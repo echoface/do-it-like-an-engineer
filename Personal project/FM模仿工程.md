@@ -2,7 +2,7 @@
 
 首先看看它长什么样, 估计有的人一看就知道我是照个某个博客抄袭的某个应用\/奸笑; 看图:
 
-![界面](/program_project/img/fakeFM_Post.png)
+![界面](img/fakeFM_Post.png)
 
 下面总结一下这个工程的流程和使用到得一些基本知识
 

@@ -165,11 +165,11 @@ Loader { //the main content for display
 
 ##### FeedmannagerView 和 ArticleListView
 
-* 图片二
-
+|                                                      |                                                      |
+| ---------------------------------------------------- | ---------------------------------------------------- |
 | ![FeedManagerView](img/x-reader-FeedManagerView.png) | ![ArticleListView](img/x-reader-ArticleListView.png) |
-| :--- | :--- |
-|
+
+
 
 这两个view就是你在main.qml文件中看到的那个stackview对应的两个view；只要我们依次把它们通过下面这个接口
 
@@ -533,8 +533,6 @@ Item {
 
 这个没什么好说的，qt从webkit切换到Chromium作为webengine之后，使用起来没有什么大额问题，这里也是简简单单的使用它去load一个article的url而已；这里是将**WebEngineView**简单地封装了一下，加了一个控制zoomfactor的缩放条而已；so easy!
 
-thanks！ that all:
+thanks！ that all
 
-| ![](img/x-reader-funy.jpg)|
-| :---: |
 

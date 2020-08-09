@@ -2,7 +2,7 @@
 
 
 
-![/bullshit/img/happy\_nodejs.gif](/bullshit/img/happy_nodejs.gif)
+![](img/happy_nodejs.gif)
 
 
 
