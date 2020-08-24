@@ -3,7 +3,26 @@
 atoi
 ---
 
-首先来看atoi，也就是说，要将一个以`\0`结束的`char*`字符串转化成ini型的值；首先想到的就是检测传入参数的合法性啦
+首先来看atoi，也就是说，要将一个以`\0`结束的`char*`字符串转化成ini型的值; 思路转化成
+
+```c
+std::string itoa_(int value) {
+  bool sign_neg = (value < 0);
+  std::string result;
+  if (sign_neg) result.append('-');
+  
+  static const char digits[36] = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+	std::vector<char> r;
+  
+ 	while() {
+  	int v = value % 10;
+    r.push_back(digits[v]);
+  }
+}
+
+```
+
+
 
 ```c
 char* itostr(char *dest, size_t size, int a, int base) {
